@@ -33,7 +33,7 @@ body {
 
 .main img {
     margin-top: -2rem;
-    width: 90vw;
+    width: 80vw;
 }
 
 .map {
@@ -45,4 +45,10 @@ body {
 
 iframe {
     width: 100%;
+}
+
+@media (min-width: 700px) {
+    .main img {
+        width: 25%;
+    }
 }
