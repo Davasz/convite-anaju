@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'BrittanySignature';
+    src: url('/assets/fonts/BrittanySignature.ttf')
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99999;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-family: 'BrittanySignature', sans-serif;
+    color: #E06246;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}
+
+.main p {
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #614a31;
+}
+
+.main img {
+    margin-top: -2rem;
+    width: 90vw;
+}
+
+.map {
+    margin-top: 0rem;
+    -webkit-box-shadow: 5px 2px 28px 4px #fface6;
+    -moz-box-shadow: 5px 2px 28px 4px #fface6;
+    box-shadow: 5px 2px 28px 4px #fface6;
+}
+
+iframe {
+    width: 100%;
+}
